@@ -1,0 +1,44 @@
+:root{
+    --colorOfH2:#ec7c7c;
+}
+
+ul{list-style: none;
+}
+.order_call{
+    color: aliceblue;
+    background: #747272;
+    border-radius: 8px;
+    border: 2px solid #2B7FFF;
+    cursor: pointer;
+}
+.order_call:hover{
+    background-color:transparent;
+    color: #747272;
+}
+
+/* Link*/
+.header_link {
+    color: #011C44;
+}
+
+.header_link:hover {
+    color: #2B7FFF;
+    ;
+
+}
+
+/* heroSection */
+.heroTitle{
+    color: #2B7FFF;
+}
+.heroTitle .acsent{
+    color: #a5acb6;
+}
+/* Advantages */
+.advantages_list{
+background: #a5acb6;
+color: azure;}
+
+.section_title{
+color: var(--colorOfH2);
+}

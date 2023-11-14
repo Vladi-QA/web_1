@@ -3,29 +3,33 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Beauty Zone</title>
+       
+        <title class="mainTitle">Beauty Zone</title>
+        <link rel="stylesheet" href="style.css" />
     </head>
     <body>
         <header>
             <nav>
                <a href="#"><img src="./img/logo.svg" alt="Logo Beauty Zone"/></a>
                 <ul>
-                    <li><a href="#" target="_blank">Про нас</a></li>
-                    <li><a href="#" target="_blank">Чому ми</a></li>
-                    <li><a href="#" target="_blank">Наші процедури</a></li>
-                    <li><a href="#" target="_blank">Контакти</a></li>
+                    <li><a class ="header_link"href="#oneSection"  >Про нас</a></li>
+                    <li><a class ="header_link"href="#sectionTwo"  >Чому ми</a></li>
+                    <li><a class ="header_link"href="#sectionThree"  >Наші процедури</a></li>
+                    <li><a class ="header_link"href="#sectionFour" target="_blank">Контакти</a></li>
 
                 </ul>
             </nav>
             <nav>
-                <button type="button">Замовити дзвінок</button>
+                <button class="order_call">Замовити дзвінок</button>
             </nav>
         </header>
             <main>
             
-    <section> <h2>Beauty Zone</h2></section>
+    <section id = 'oneSection'> <h2 class="heroTitle"><span class="acsent">Beauty</span>Zone</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt ullam praesentium minima placeat quos officiis explicabo, dolores beatae quia sapiente error. Eaque quaerat iste molestiae magni quo sint explicabo ipsa.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, temporibus, eum fugiat ab magnam officiis sequi tenetur, quo maxime alias nam rerum quibusdam? Quia, obcaecati odit distinctio pariatur accusantium ab.</p></section>
 
-    <section><h2>Перевтілюйтесь в beauty zone! </h2>
+    <section id="sectionTwo"><h2 class="section_title">Перевтілюйтесь в beauty zone! </h2>
     <article> 
     <ul>
         <li>
@@ -42,15 +46,19 @@
                 тандарти якості та приємний сервіс. Наші косметологічні процедури та препарати допоможуть вам підтримувати свою красу та молодість. 
                 З нами краса назавжди!</p> 
         </li>
+            <p>B <span>beauty zone</span> ми гарантуємо найвищі с
+                тандарти якості та приємний сервіс. Наші косметологічні процедури та препарати допоможуть вам підтримувати свою
+                красу та молодість.
+                З нами краса назавжди!</p>
+            </li>
         <img src="./img/after_woman.png" alt="Lady after">
     </ul>   
     </article>
-    </section>
+    </section >
 
-    <section>
-        <h2>Чому люди 
-        обирають нас</h2>
-        <ul>
+    <section >
+        <h2 class="section_title">Чому люди обирають нас</h2>
+        <ul class="advantages_list">
         <li>
         <article><p>Всі наші косметологи мають вищу медичну освіту 
             та стаж роботи від 5 років</p>
@@ -64,14 +72,24 @@
         </ul>
     </section>
 
-    <section> 
-        <h2>Наші процедури</h2>
-    <article></article>
-    <article></article>
-    <article></article>
+    <section id = 'sectionThree'> 
+        <h2  class="section_title">Наші процедури</h2>
+        <article><P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit omnis molestias eligendi velit sunt? Corporis illo repellat magni impedit sapiente? Corporis qui quaerat quo id nisi obcaecati quisquam rerum aperiam.</P></article>
+        <article><P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id expedita dolores unde, voluptate natus culpa, et eaque, non fugit ab a ad minus sint nostrum cupiditate soluta quam ullam dicta!</P></article>
+        <article></article>
     </section>
 
-    <section><h2>Як нас знайти</h2></section>
+    <section ><h2  class="section_title">Як нас знайти</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d11528.058487344573!2d-79.47440087102972!3d43.75179313933777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sca!4v1699795869764!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <ul>
+            <article>Запишіться безкоштовно
+            та отримайте подарунок</article>
+            <li>Ваше ім'я та прізвище</li>
+            <li>Ваш номер телефону</li>
+            <li>Ваша електронна пошта</li>
+        </ul>
+        <button class="book_apointment">Записатись безкоштовно</button>
+    </section>
             </main>
             <footer>
                 <!-- logo -->
@@ -84,15 +102,19 @@
 
 </ul>
 
-<address>
+<address id ='sectionFour'>
+    <ul>
 <li><a href="tel:+16478610079">some info</a></li>
 <li><a href="https://maps.app.goo.gl/pRo16bC6aCjJEDiv8" target="_blank">10 De Boers Dr, North York, ON M3J 0L6</a></li>
 <li><a href="mailto:volodymyr.dziuba@gmail.com" >volodymyr.dziuba@gmail.com</a></li>
+</ul>
 </address>
+<ul>
 <li><a href="#">Instogram</a></li>
 <li><a href="#">Facebook</a></li>
 <li><a href="#" target="_blank">Політика конфіденційності</a></li>
-<p>© 2022 Дані захищені</p>
+</ul>
+<p>&copy 2022 Дані захищені</p>
             </footer>
         
 
