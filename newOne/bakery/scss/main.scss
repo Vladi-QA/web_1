@@ -1,0 +1,167 @@
+@import './util/fonts';
+
+@import './util/variables';
+
+/* base */
+
+@import './base';
+
+.container {
+    max-width: 1288px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+@import './util/utils';
+
+.section {
+    padding: 48px 0;
+}
+
+@import'./components/input';
+
+
+/* buttons */
+@import './components/buttons';
+
+/* .button:disabled {
+    cursor: not-allowed;
+    color: gray;
+    background-color: #CFCFBC;
+} */
+
+/* links */
+
+@import './components/links';
+
+/* Header */
+
+@import './layouts/header';
+
+/* Hero_sections */
+
+
+@import'./components/hero';
+/* Advantages_style */
+
+@import'./layouts/advantages';
+
+@import'./layouts/tradition';
+
+@import'./layouts/chef';
+
+@import'./components/chef_Card';
+
+@import'./components/format_card';
+
+
+@import'./components/carusel_button';
+
+@import'./layouts/formats';
+
+@import'./layouts/footer';
+
+@import'./layouts/form_terms';
+
+
+@import'./layouts/contact';
+
+@import'./layouts/modal';
+
+@import'./layouts/backdrop';
+
+@import'./util/texts';
+
+@import'./layouts/section';
+
+@import'./util/variables';
+@import'./util/fonts';
+@import'./layouts/mobileMenu';
+
+
+
+
+
+.address_menu,
+.address_list {
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+.address_ .adress_link {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--color_brand);
+    text-decoration: none;
+}
+
+.adress_link:hover {
+    color: var(--first_color);
+    font-size: 20px;
+}
+
+.data_zahist {
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+/* Contact section */
+.contact_container {
+    display: flex;
+    gap: 32px;
+}
+
+.contact_map {
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: none;
+}
+
+.contact_section {
+    padding-bottom: 48px;
+}
+
+.Contact_title_margin_bottom_1 {
+    margin-bottom: 16px;
+}
+
+.contact_section__form_field {
+    position: relative;
+    margin-bottom: 32px;
+}
+
+.adress_link {
+    color: #f5f3ef;
+    margin-left: 40px;
+}
+
+.data_zahist {
+    color: #f5f3ef;
+    margin-left: 40px;
+}
+
+.soc_media {
+    color: #f5f3ef;
+    width: 32px;
+    height: 32px;
+}
+
+.soc_media.hover {
+    color: #8a7346;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+/* .test_box{
+    width: 300px;
+    height: 400px;
+    border: 2px solid black;
+    max-width: 20px auto;
+    background-image: linear-gradient( gold, red, white, black);
+} */
+
+
+
+/* Modal windows  */

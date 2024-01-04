@@ -1,0 +1,18 @@
+.button {
+    display: block;
+    width: 238px;
+    height: 59;
+    border-radius: 8px;
+    border: 2px solid #c7f57c;
+    gap: 10px;
+    background-color: #88a559;
+    color: aliceblue;
+    cursor: pointer;
+    padding: 16px 32px;
+}
+
+.button:hover {
+    color: wheat;
+    background-color: var(--color_brand);
+    font-weight: 600;
+}

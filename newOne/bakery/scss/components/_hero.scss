@@ -1,0 +1,62 @@
+.hero_section {
+    padding: 124px 0;
+    background-image: linear-gradient(102.76deg,
+            rgba(18, 18, 17, 0.78) 2.03%,
+            rgba(18, 18, 17, 0.6) 58.46%,
+            rgba(18, 18, 17, 0) 90.36%),
+        url("/img/bakery_fon.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    background-attachment: fixed;
+
+    @media screen and (min-width:$bp-tablet) {
+        padding: 272px 0;
+    }
+
+    @media screen and (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        background-image: linear-gradient(102.76deg,
+                rgba(18, 18, 17, 0.78) 2.03%,
+                rgba(18, 18, 17, 0.6) 58.46%,
+                rgba(18, 18, 17, 0) 90.36%),
+            url("/img/bakery_fon@2x.jpg");
+    }
+
+    &__title {
+        text-align: center;
+        text-transform: capitalize;
+        font-weight: 900;
+        font-size: 67px;
+        line-height: 1;
+        margin-bottom: 48px;
+
+        @media screen and (min-width:$bp-tablet) {
+            margin: 0;
+            font-weight: 900;
+            font-size: 64px;
+            line-height: 1.5;
+        }
+    }
+
+    &__button {
+        margin: 0 auto;
+
+        @media screen and (min-width:$bp-tablet) {
+            display: none;
+        }
+    }
+}
+
+.brend_trad {
+    font-weight: bolder;
+}
+
+.text_upper {
+    text-transform: uppercase;
+}
+
+.second_word {
+    color: aliceblue;
+}

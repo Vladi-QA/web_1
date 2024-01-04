@@ -1,0 +1,22 @@
+img {
+    width: 50%;
+    height: auto;
+}
+
+body {
+    max-width: 800px;
+    margin: 0 auto;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+}
+
+
+.wrap {
+    /* margin-block-start: -5rem; */
+    background: rgba(204, 198, 198, 0.5);
+    position: relative;
+    border-radius: 8px;
+
+}

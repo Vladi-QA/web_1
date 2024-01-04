@@ -1,7 +1,13 @@
 /* roboto-300italic - latin */
+*{box-sizing: border-box;}
 
 
-
+h1, h2, h3, p {
+    margin-top: 0;
+}
+.s1{
+    padding: 48px 0;
+}
 /* roboto-regular - latin */
 @font-face {
     font-display: swap;
@@ -56,7 +62,8 @@ ul{list-style: none;
     background-color: #747272;
     font-size: 20px;
     line-height: 1.5;
-    text-shadow: 2px 3px 2px white
+    text-shadow: 2px 3px 2px white;
+ 
 }
 
 
@@ -77,15 +84,22 @@ ul{list-style: none;
 }
 
 /* heroSection */
+.heroTitle_1{
+    padding: 200px;
+    padding-left: 30px;
+    margin-bottom: 0;
+}
 .heroTitle{
     color: #2B7FFF;
     font-family: fantasy;
-    text-align: center;
     font-weight: 900;
     font-style: italic;
+    /* text-align: center; */
+  
+    
 }
 .heroTitle .acsent{
-    color: #a5acb6;
+    color: #828588;
      
 }
 
@@ -112,6 +126,5 @@ line-height: 1.3;
     font: roboto;
     font-weight: 400;
     size: 18px;
-    line-height: 1.3;
-     
+    line-height: 1.3;  
 }

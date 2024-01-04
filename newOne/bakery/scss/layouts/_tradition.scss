@@ -1,0 +1,51 @@
+.tradition .brend {
+    text-transform: capitalize;
+    color: var(--first_color);
+    font-weight: 600;
+}
+
+.tradition .text {
+    color: var(--first_color);
+}
+
+.traditions_section {
+    padding-top: 40px;
+
+    @media screen and (min-width: $bp-tablet) {
+        padding-top: 96px;
+    }
+
+    &__container {
+        gap: 40px;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 40px;
+        justify-content: space-between;
+    }
+
+    &__title_margin_bottom_1 {
+        margin-bottom: 42px;
+    }
+
+    &__content {
+        max-width: 710px;
+    }
+
+    &__img1 {
+        display: none;
+        border-radius: 400px 400px 0px 0px;
+
+        @media screen and (min-width: $bp-tablet) {
+            display: block;
+            ;
+        }
+
+    }
+
+
+    &__text {
+        --limited {
+            max-width: 340px;
+        }
+    }
+}

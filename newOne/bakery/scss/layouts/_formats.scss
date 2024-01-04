@@ -1,0 +1,23 @@
+.format_section {
+    &__container {
+        display: flex;
+        gap: 32px;
+        align-items: center;
+    }
+
+    &__format_title {
+        margin-bottom: 80px;
+    }
+
+    &__lists {
+        display: flex;
+        gap: 20px;
+        /* chtobi dobavlyalis s nizy v seccii ------>*/
+        flex-wrap: wrap;
+    }
+
+    &__item {
+        flex-basis: calc((100% - 40px) / 3);
+    }
+
+}

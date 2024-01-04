@@ -1,0 +1,22 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: blanchedalmond;
+    padding: 10px;
+    border: 6px solid darkblue;
+    margin: 10px;
+}
+
+.flex_container{
+    display: flex;
+    align-items: center;
+}
+.box:last-child{width:400px;
+height:400px;}
+.box:nth-child(2){
+    width: 300px;
+        height: 300px;
+}
+.box{
+    
+}

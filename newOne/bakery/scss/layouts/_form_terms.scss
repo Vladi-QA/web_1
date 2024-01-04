@@ -1,0 +1,16 @@
+.form_term {
+    max-width: 220px;
+    margin: 0 auto;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.5;
+    text-align: center;
+
+    &__link {
+        color: var(--color_brand);
+        text-underline-offset: 2px;
+    }
+}
+
+
+/* dlya HTML INPUT pattern="^\+[0-9]{12}" */

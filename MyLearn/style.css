@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+.TopBar {
+
+    text-align: center;
+    text-transform: uppercase;
+    display: block;
+    background-color: burlywood;
+
+}
+
+.numbers {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    font-size: 40px;
+    margin-top: 0;
+}
+
+.links_header {
+    text-decoration: none;
+}
+
+.links_header:hover {
+    color: blueviolet;
+}
+
+.img_1 {
+    margin: 0;
+    width: 100%;
+    height: 700px;
+    border: 1px solid black;
+    margin: -39px auto;
+    background-color: blueviolet;
+    background-image: url(./img/coffeeShop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.our_coffee {
+    color: aliceblue;
+    text-align: left;
+    margin-left: 40px;
+    font-size: 35px;
+}
+
+.coffee {
+    padding-top: 1px;
+    display: block;
+    text-transform: uppercase;
+    list-style-type: none;
+}
+
+.coffee_2 {
+    text-decoration: none;
+    line-height: 250%;
+    color: aliceblue;
+}
+
+.coffee_2:hover {
+    color: blueviolet;
+}
+
+.LoveFromToronto {
+    background-color: rgb(19, 17, 16);
+    position: relative;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.LoveFromToronto .Love {
+    width: 200px;
+}
+
+.LoveFromToronto .Love path {
+    fill: transparent;
+    stroke: 10;
+    stroke: white;
+    gap: 70px;
+
+}

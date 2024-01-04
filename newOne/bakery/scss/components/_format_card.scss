@@ -1,0 +1,48 @@
+.format_card {
+    position: relative;
+    height: 346px;
+    border: 1px solid black;
+    border-radius: 14px;
+    padding: 24px;
+    background-image: linear-gradient(180deg,
+            rgba(49, 38, 26, 0) 55.21%,
+            rgba(49, 38, 26, 0.71) 72.92%,
+            var(--color_brand) 100%);
+    /* background-image: url(../bakery/img/1.jpg);   */
+    box-shadow: 2px 2px 4px 4px rgb(175, 185, 175);
+    color: #ffffff;
+    // text bydet vnizy
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    transition: transform 0.3s;
+    overflow: hidden;
+
+    &:hover {
+        transform: scale(1.05);
+        transition: transform 0.3s;
+    }
+
+
+
+
+    &__img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -2;
+    }
+
+    &__text {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    &__title {
+        text-align: center;
+
+    }
+}

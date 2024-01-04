@@ -1,0 +1,53 @@
+.footer {
+    padding: 20px 0;
+    background-image: url("../bakery/img/main_1.png");
+    background-color: var(--color_brand);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.footer::before {
+    position: absolute;
+    width: 180px;
+    height: 120px;
+    left: 0;
+    background-repeat: no-repeat;
+    background-image: url(../bakery/img/bread_2.png);
+    content: "";
+}
+
+.footer::after {
+    position: absolute;
+    width: 380px;
+    height: 190px;
+    right: 0;
+
+    background-repeat: no-repeat;
+    background-image: url(../bakery/img/bread_1.png);
+    content: "";
+}
+
+.footer_container {
+    display: flex;
+    gap: 20px;
+}
+
+.footer_nav {
+    flex-basis: 50%;
+    display: flex;
+    gap: 32px;
+}
+
+.footer_address {
+    flex-basis: 50%;
+    display: flex;
+}
+
+.footer_menu {
+    flex-grow: 1;
+}
+
+.footer_logo {
+    flex-grow: 0;
+}
